@@ -1,0 +1,59 @@
+/* Marks background elements */
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    
+    margin: auto auto;
+    width: 70%;
+    height: 70%;
+    
+}
+table tr th, td {
+    border: 2px solid #011324;
+}
+
+tr > td {
+    text-align: center;
+    padding: 0.2em 1em;
+}
+tr > td:nth-child(2) {
+    text-align: left;
+}
+
+/* Marks every second element */
+tr:nth-child(2n+1) > td {
+    background-color: #273d66;
+
+}
+
+td:first-child:after {
+    content: ".";
+}
+
+/* Contains winners */
+tr:nth-child(-1n+8) > td:nth-child(3),tr:nth-child(-1n+8) > td:nth-child(4) 
+{
+    background-color: #15473B;
+    text-align: left;
+    
+    padding-left: 2em;
+}
+tr:nth-child(-2n+8) > td:nth-child(3),tr:nth-child(-2n+8) > td:nth-child(4) 
+{
+    background-color: #10331f;
+}
+
+/* Contains losers */
+tr:nth-child(1n+9) > td:nth-child(3),tr:nth-child(1n+9) >  td:nth-child(4) 
+{
+    background-color: #6A1A45;
+    text-align: left;
+    padding-left: 2em;
+}
+
+tr:nth-child(2n+9) > td:nth-child(3),tr:nth-child(2n+9) >  td:nth-child(4) 
+{
+    background-color: #962360;
+    text-align: left;
+    padding-left: 2em;
+}

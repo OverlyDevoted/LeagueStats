@@ -1,0 +1,98 @@
+section>div {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+main>section {
+    padding: 1.5em 0;
+}
+
+
+.button {
+    text-align: center;
+}
+
+.button a {
+    background-color: red;
+    border-radius: 0.5em;
+    color: white;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    text-align: left;
+}
+
+h2 {
+    margin: 0;
+}
+
+nav {
+    background-color: orange;
+    text-align: right;
+    padding: 1em 0;
+}
+
+nav>a {
+    color: white;
+    font-size: 1.5em;
+    padding: 0 1em;
+    text-decoration: none;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin: 1em 0;
+}
+
+td,
+th {
+    border: 1px solid red;
+    padding: 1em;
+}
+
+tfoot tr th:last-child {
+    border-left: 0px;
+
+}
+
+tfoot tr th:first-child {
+
+    border-right: 0px;
+}
+
+tbody tr td:first-child {
+    text-align: center;
+}
+
+tr *:last-child {
+    text-align: right;
+}
+
+#tables {
+    color: white;
+    background-color: rgb(33, 19, 85);
+}
+
+
+
+section.whole {
+    color: white;
+    background-color: orange;
+
+    text-align: center;
+}
+
+.whole p {
+    padding: 1em 0em;
+    margin: 0;
+
+}
