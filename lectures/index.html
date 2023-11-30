@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    table {
+
+        border-spacing: 0;
+        border-collapse: collapse;
+    }
+
+    td,
+    th {
+        border: 1px solid #7A9DBF;
+    }
+
+    section>* {
+        margin: 0 auto;
+        padding: 1em;
+    }
+</style>
+
+<body>
+    <h1 style="text-align: center;">Simple tables</h1>
+    <div style="text-align: center;">
+        <h2>
+            <a href="/aviva.html">Aviva</a>
+        </h2>
+    </div>
+    <section>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Component</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td>Web application</td>
+                    <td>Is run on the server for the purpose of performing some business logic</td>
+                </tr>
+                <tr>
+                    <td>Web Server</td>
+                    <td>Responsible for listening to clients and and sending them the requests</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Relational database</th>
+                    <th scope="col">NoSQL database</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>PostgreSQL</td>
+                    <td>Redis</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>MSSQL</td>
+                    <td>MongoDB</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th scope="row">Conclusions</th>
+                    <td>Good for structured, huge amounts of data</td>
+                    <td>Good for fast, unstructured, ever changing tada</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+</body>
+
+</html>
