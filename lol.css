@@ -7,8 +7,6 @@ html{
     min-height: 100%;
 }
 body {
-    
-    display: block;
     background: linear-gradient(#04121f 0%, #052f53 100%);
     color: #F2F0E9;
     text-align: center;
